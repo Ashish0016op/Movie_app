@@ -1,8 +1,22 @@
-.navbar{
-    background-color: #FFFFFF;
-    color: black;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: black;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Nav_container {
+  padding-top: 75px;
 }
 .nav_logo{
     height: 55px;
   width: 85px;
+}
+.Reach-us{
+  color: blue;
 }

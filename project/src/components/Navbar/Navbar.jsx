@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../../assets/logo.jpeg';
 import './Navbar.css';
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="Nav_container">
@@ -13,22 +14,21 @@ const Navbar = () => {
         </div>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-xl">
             <li>
-              <a>Link</a>
+              <Link>Home</Link>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2 rounded-t-none">
-                  <li>
-                    <a>Link 1</a>
-                  </li>
-                  <li>
-                    <a>Link 2</a>
-                  </li>
-                </ul>
-              </details>
+              <Link>Our Best</Link>
+            </li>
+            <li>
+              <Link>Gallery</Link>
+            </li>
+            <li>
+              <Link>Client Testimonals</Link>
+            </li>
+            <li>
+              <Link className="Reach-us">Reach Us</Link>
             </li>
           </ul>
         </div>

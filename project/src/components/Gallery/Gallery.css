@@ -1,0 +1,24 @@
+.Gallery_section{
+    background-color: #91C371;
+    color: #3F3F3F;
+}
+.Gallery_heading{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.images_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gallery_img{
+    height: 400px;
+    width: 450px;
+}

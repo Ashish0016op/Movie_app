@@ -1,0 +1,28 @@
+.About-section{
+    background-color: #91C371;
+    color: #3F3F3F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading1{
+    padding-top: 20px;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.about-banner{
+    padding-top: 20px;
+    width: 85%;
+}
+.about-text-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-text{
+    width: 80%;
+}
