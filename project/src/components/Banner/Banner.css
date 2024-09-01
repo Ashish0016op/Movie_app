@@ -17,24 +17,71 @@
     padding: 0;
     margin: 0;
 }
+.indicators{
+    height: 200px;
+    width: 100%;
+    display: flex;
 
+    gap: 2px;
+}
+.indicator_img{
+    height: 190px;
+}
+
+/* CSS */
+.slide_btn {
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+  background-color: red;
+  border-radius: 100px;
+  box-shadow: rgba(186, 7, 28, 0.2) 0 -25px 18px -14px inset,rgba(124, 5, 15, 0.15) 0 1px 2px,rgba(59, 25, 143, 0.15) 0 2px 4px,rgba(125, 11, 110, 0.15) 0 4px 8px,rgba(20, 18, 158, 0.15) 0 8px 16px,rgba(124, 12, 53, 0.15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.slide_btn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
 .custom-slide-container .indicators li {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0 5px;
     cursor: pointer;
-    width: 10px;
-    height: 10px;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
+    height: 200px !important;
+    width: 200px !important;
+    /* border-radius: 50%; */
 }
 
 .custom-slide-container .indicators .active {
-    background-color: #ffffff;
+    background-color: red;
+    height: 100%;
 }
 
-.custom-slide-container img {
+.banner_img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 500px;
     margin-bottom: 0;
+}
+.custom-indicator{
+    width: 20px;
+    height: 200px;
+}
+.movie_name{
+    font-size: large;
+    font-weight: bold;
+    padding-top: 20px;
 }

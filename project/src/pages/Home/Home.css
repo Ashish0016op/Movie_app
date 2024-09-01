@@ -1,0 +1,21 @@
+.All_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.c_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.S_box{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}

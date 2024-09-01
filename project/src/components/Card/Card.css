@@ -1,0 +1,26 @@
+.title-overlay {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: start;
+  }
+  .title{
+    font-weight: bold;
+    font-size: large;
+  }
+  .offer_title{
+    font-size: large;
+    font-weight: bold;
+  }
+  .drawer_image_box{
+    height: 500px;
+  }
+  
